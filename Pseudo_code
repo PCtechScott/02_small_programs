@@ -1,0 +1,53 @@
+# Lesson 2
+# Pseudo-code
+
+1) method that returns the sum of two integers
+
+get first number
+get second number
+make sure they're integers
+add them together
+print the result
+
+START
+GET num_1
+GET num_2
+SET result = num1.to_i + num2.to_i
+PRINT result
+END
+
+
+2) Method that takes an array of strings, then returns a string that is
+all those strings concatenated together
+
+set a base, empty string
+read each element in the array and add it to the base string
+display the base string
+
+START
+SET string = ""
+SET iterator = 0
+WHILE iterator < length of array
+  SET temp = array(iterator)
+  string = string + temp
+  iterator = iterator + 1
+PRINT string
+END
+
+
+3) method that takes an array of integers, and returns a new array with every other element
+
+read each element of an array
+if its index is odd, add it to a new array
+display the new array
+
+START
+SET final_array = []
+SET iterator = 0
+WHILE iterator < length of base_array
+  IF iterator.odd?
+    SET final_array << base_array(iterator)
+  ELSE don't
+iterator = iterator + 1
+PRINT final_array
+END
